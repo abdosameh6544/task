@@ -1,0 +1,134 @@
+
+body{
+background: url(../pic/istockphoto-1320360211-1024x1024.jpg) no-repeat   ;
+background-size: cover;
+
+
+}
+
+.div1{
+    width: 100px;
+    height: 100px;
+    transition: 3s;
+    position: absolute;
+    background-color: black;
+    background: url(../pic/images.png) ;
+    background-size: contain;
+    animation-name: bb;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    }
+    
+    @keyframes bb{
+    
+    0%{
+    background-color: brown;
+    left: 0;
+    }
+
+    100%{
+
+    left: 92%;
+    }
+    
+    }
+    .div2{
+        width: 60px;
+        height: 150px;
+        transition: 3s;
+        position: absolute;
+        background-color: black;
+        background: url(../pic/cartoon-funny-little-boy-standing-free-vector.jpg) no-repeat ;
+        background-size: contain;
+        animation-name: a;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        animation-direction: reverse;
+        animation-delay: 3s;
+        top: 150px;
+        left: 95%;
+
+        }
+        
+        @keyframes a{
+        
+        0%{
+     
+        left: 0%;
+        }
+        
+    
+        100%{
+  
+        left: 95%;
+        }
+        
+        
+        
+        }
+        .div3{
+            width: 60px;
+            height: 150px;
+            transition: 3s;
+            position: absolute;
+            background-color: black;
+            background: url(../pic/cartoon-funny-little-boy-standing-free-vector.jpg) no-repeat ;
+            background-size: contain;
+            animation-name: c;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+    
+            animation-delay: 6s;
+            top: 310px;
+            }
+            
+            @keyframes c{
+            
+            0%{
+      
+            left: 0;
+            }
+            
+          
+            
+            
+            100%{
+
+            left: 94%;
+            }
+            
+            
+            
+            }
+            .div4{
+                width: 160px;
+                height: 150px;
+                transition: 3s;
+                position: absolute;
+                background-color: black;
+                background: url(../pic/تنزيل.png) no-repeat ;
+                background-size: contain;
+                animation-name: d;
+                animation-duration: 3s;
+                animation-fill-mode: forwards;
+     animation-direction: reverse;
+                animation-delay: 9s;
+                top: 500px;
+                left: 86%;
+                }
+                
+                @keyframes d{
+                
+                0%{
+             
+                left: 0;
+                }
+                
+    
+                100%{
+
+                left: 86%;
+                }
+            
+                
+                }
